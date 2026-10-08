@@ -1,5 +1,4 @@
-const API_BASE = (import.meta.env?.VITE_API_URL) || "http://localhost:8001/api";
-
+const API_BASE = "https://flowguard-demo.onrender.com/api";
 const state = {
   business: { name: "FreshMart", type: "Neighborhood Grocery", location: "Jorhat, Assam" },
   route: location.hash.slice(1) || "/",
